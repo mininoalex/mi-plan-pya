@@ -2,7 +2,7 @@
 window.CONTENT_IT = {
   'it-1': {
     title: 'Qué hace soporte N1, hardware y componentes', week: 1,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Inventariá una notebook y sus periféricos. Separá síntoma, impacto y número de activo.</p>
 <h3>El rol de Soporte N1</h3>
 <p>Nivel 1 (N1) es la primera línea: recibe los pedidos de los usuarios (por teléfono, mail, chat o portal), registra cada uno en un <b>ticket</b>, resuelve lo conocido y <b>escala</b> a N2 o N3 lo que necesita más permisos o conocimiento. Lo que se evalúa en N1: que registres bien, que te comuniques claro y que no dejes casos sin seguimiento.</p>
 <ul><li><b>N1</b>: contraseñas, cuentas bloqueadas, impresoras, Office, conectividad básica, instalación de software autorizado.</li>
@@ -34,7 +34,7 @@ window.CONTENT_IT = {
   },
   'it-2': {
     title: 'Windows: usuarios, permisos, drivers, actualizaciones', week: 2,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Compará un fallo de Outlook web y de escritorio con la misma cuenta de prueba. Registrá qué funciona y qué escalarías.</p>
 <h3>Cuentas de usuario</h3>
 <ul><li><b>Local</b>: existe solo en esa PC. <b>Microsoft</b>: se inicia con un mail de Microsoft. <b>De dominio</b>: en empresas, la administra Active Directory / Entra ID y se usa en cualquier PC de la red.</li>
 <li><b>Administrador</b> puede instalar y cambiar configuraciones. <b>Estándar</b> no. En empresas los usuarios son estándar: principio de <b>mínimo privilegio</b>.</li>
@@ -66,7 +66,7 @@ window.CONTENT_IT = {
   },
   'it-3': {
     title: 'Tickets e ITIL básico', week: 3,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Registrá un incidente y un pedido de alta. Asigná impacto, urgencia, responsable y próximo contacto.</p>
 <h3>Qué es ITIL</h3>
 <p>Un marco de buenas prácticas para gestionar servicios de IT. No hace falta certificarte para empezar, pero en las entrevistas de mesa de ayuda preguntan sus conceptos básicos.</p>
 <h3>Los cuatro tipos de registro</h3>
@@ -100,7 +100,7 @@ window.CONTENT_IT = {
   },
   'it-4': {
     title: 'Atención al usuario técnico y documentación', week: 4,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Simulá un llamado: pedí consentimiento para la asistencia, explicá un paso por vez y confirmá la solución con el usuario.</p>
 <h3>Método de resolución de problemas</h3>
 <p>Un método ordenado evita dar vueltas y es lo que buscan en las entrevistas. El más difundido tiene 7 pasos:</p>
 <ol><li><b>Identificar el problema</b>: preguntar, reproducir, revisar cambios recientes.</li>
@@ -132,7 +132,7 @@ window.CONTENT_IT = {
   },
   'it-5': {
     title: 'IP, máscara, DHCP, DNS y puerta de enlace', week: 5,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Dibujá cliente, puerta de enlace y DNS de la VM. Separá pérdida de enlace de falla de resolución.</p>
 <h3>Dirección IP</h3>
 <p>Identifica a un equipo en una red. IPv4 son 4 números de 0 a 255: <code>192.168.1.15</code>. Cada equipo de la misma red necesita una IP distinta; si dos coinciden hay <b>conflicto de IP</b>.</p>
 <h3>Rangos privados</h3>
@@ -162,7 +162,7 @@ window.CONTENT_IT = {
   },
   'it-6': {
     title: 'Comandos de red: ping, ipconfig, tracert, nslookup', week: 6,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Compará ipconfig, ping a la puerta de enlace y nslookup. Adjuntá dos resultados y explicá qué descarta cada uno.</p>
 <h3>ipconfig</h3>
 <ul><li><code>ipconfig</code>: IP, máscara y gateway de cada adaptador.</li><li><code>ipconfig /all</code>: además MAC, DNS, si DHCP está activo y servidor DHCP.</li>
 <li><code>ipconfig /release</code> y <code>ipconfig /renew</code>: suelta y pide una IP nueva al DHCP.</li><li><code>ipconfig /flushdns</code>: borra la caché de DNS (sirve cuando una página cambió de IP).</li></ul>
@@ -192,7 +192,7 @@ window.CONTENT_IT = {
   },
   'it-7': {
     title: 'Router, switch, wifi e impresoras en red', week: 7,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Diagnosticá una cola pausada, un trabajo trabado y una impresora sin enlace. Documentá cuándo corresponde llamar al proveedor.</p>
 <h3>Los equipos</h3>
 <table><tr><th>Equipo</th><th>Qué hace</th></tr>
 <tr><td><b>Módem / ONT</b></td><td>Convierte la señal del proveedor (cable, fibra) a red Ethernet</td></tr>
@@ -226,7 +226,7 @@ window.CONTENT_IT = {
   },
   'it-8': {
     title: 'Seguridad básica: contraseñas, phishing, backups', week: 8,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Usá usuarios ficticios y permisos por grupo. Restaurá una copia de un archivo de prueba y verificá su contenido.</p>
 <h3>Contraseñas y MFA</h3>
 <ul><li>Largas mejor que complicadas: una frase de 4 o 5 palabras es más difícil de adivinar que <i>P@ss1</i>.</li>
 <li>Una contraseña distinta por servicio. Usar un <b>gestor de contraseñas</b>.</li>
@@ -256,7 +256,7 @@ window.CONTENT_IT = {
   },
   'it-9': {
     title: 'PowerShell: comandos, variables y pipeline', week: 9,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Armá un informe de versión de Windows, disco y memoria sin incluir datos personales.</p>
 <h3>Qué es</h3>
 <p>La consola y lenguaje de automatización de Windows. A diferencia del CMD, trabaja con <b>objetos</b> (con propiedades), no solo texto. Saber lo básico te diferencia mucho en N1.</p>
 <h3>Cmdlets: Verbo-Sustantivo</h3>
@@ -294,7 +294,7 @@ $servicios.Count</pre>
   },
   'it-10': {
     title: 'PowerShell: scripts, condiciones y archivos', week: 10,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Compará dos informes del script de diagnóstico ante el mismo síntoma. Adjuntá hipótesis y próximo control.</p>
 <h3>Scripts .ps1</h3>
 <p>Un script es un archivo de texto con extensión <code>.ps1</code>. Se corre con <code>.\\mi-script.ps1</code>. Por seguridad, Windows puede bloquear scripts según la <b>política de ejecución</b>. Para tu usuario: <code>Set-ExecutionPolicy -Scope CurrentUser RemoteSigned</code> (permite tus scripts locales y exige firma a los descargados). No la desactives del todo.</p>
 <h3>Condiciones</h3>
@@ -336,7 +336,7 @@ foreach ($ip in $equipos) {
   },
   'it-11': {
     title: 'Python básico para automatizar', week: 11,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Leé un CSV ficticio de tickets y contá abiertos por categoría. Contrastá el resultado con un recuento manual.</p>
 <h3>Por qué Python si ya tenés PowerShell</h3>
 <p>Python corre en Windows, Linux y Mac, es el lenguaje más usado para automatización e IA, y lo vas a necesitar para el clasificador de tickets. Ya tenés base de programación: esto es un repaso orientado a soporte.</p>
 <h3>Lo esencial</h3>
@@ -384,7 +384,7 @@ except ValueError:
   },
   'it-12': {
     title: 'Git y GitHub: commits, ramas y README', week: 12,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Versioná un procedimiento de soporte. Pedile a otra persona que lo siga o repetilo desde una VM limpia y anotá los pasos ambiguos.</p>
 <h3>Qué es</h3>
 <p><b>Git</b> guarda la historia de cambios de un proyecto. <b>GitHub</b> es donde subís esos proyectos a internet: es tu portfolio. Un reclutador técnico mira tu GitHub.</p>
 <h3>El flujo básico</h3>
@@ -423,7 +423,7 @@ git push -u origin main</pre>
   },
   'it-13': {
     title: 'Prompts bien hechos, límites y riesgos de la IA', week: 13,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Prepará una respuesta al usuario y un traspaso a N2 para el mismo caso. Revisá que cada afirmación se apoye en el ticket.</p>
 <h3>Lo que buscan las empresas</h3>
 <p>No alcanza con "saber usar ChatGPT". Valoran a quien <b>aplica la IA a un problema concreto, mide el resultado y conoce sus límites</b>.</p>
 <h3>Anatomía de un buen prompt</h3>
@@ -454,7 +454,7 @@ git push -u origin main</pre>
   },
   'it-14': {
     title: 'IA local con Ollama + Python', week: 14,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Probá cuatro categorías y una salida de revisión humana. Mantené la prioridad bajo decisión del operador.</p>
 <h3>Qué es Ollama</h3>
 <p>Una herramienta gratis para correr modelos de lenguaje <b>en tu propia PC</b>. Ventajas: sin costo por uso, sin límite de mensajes y los datos no salen de tu máquina (ideal para tickets con información sensible). Desventaja: los modelos chicos son menos capaces que los grandes en la nube y necesitás RAM.</p>
 <h3>Primeros pasos</h3>
@@ -491,7 +491,7 @@ print(datos)</pre>
   },
   'it-15': {
     title: 'Medir y documentar resultados', week: 15,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Compará el modelo con reglas simples usando ocho tickets reservados. Registrá errores y tiempos observados.</p>
 <h3>Por qué medir</h3>
 <p>"Hice un clasificador con IA" no dice nada. "Clasificó bien 16 de 20 tickets (80 %), ahorra unos 40 segundos por ticket y falla con los de red" es lo que convence a un reclutador.</p>
 <h3>Cómo armar la prueba</h3>
@@ -519,7 +519,7 @@ print(datos)</pre>
   },
   'it-16': {
     title: 'Portfolio y CV de Soporte N1', week: 16,
-    html: `
+    html: `<h3>Práctica de mesa de ayuda</h3><p>Mostrá una incidencia de punta a punta: recepción, pruebas, comunicación, cierre y evidencia. Enlazá los cuatro proyectos.</p>
 <h3>La página portfolio</h3>
 <p>Simple y rápida: quién sos en una línea, los 4 proyectos y cómo contactarte. Cada proyecto:</p>
 <ol><li><b>Problema</b> que resuelve (una frase).</li><li><b>Qué hiciste</b> (herramientas).</li><li><b>Resultado</b> con un número si lo hay.</li><li>Link a GitHub y una captura.</li></ol>
